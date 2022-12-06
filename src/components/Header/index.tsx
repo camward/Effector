@@ -26,7 +26,7 @@ const Header = () => {
         to="/three"
         className={({ isActive }) => (isActive ? "active" : undefined)}
       >
-        Three
+        Effect Sequence
       </NavLink>
     </div>
   );
