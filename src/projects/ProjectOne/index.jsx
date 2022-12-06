@@ -1,5 +1,5 @@
 import React from "react";
-import { createEffect, createStore } from "effector";
+import { createEffect, createStore } from "effector-logger";
 import { useStore, useEvent } from "effector-react";
 import { Box, Button } from "@mui/material";
 

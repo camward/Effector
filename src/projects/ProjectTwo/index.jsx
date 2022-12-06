@@ -5,7 +5,7 @@ import {
   createEffect,
   restore,
   sample,
-} from "effector";
+} from "effector-logger";
 import { useStore, useList } from "effector-react";
 import {
   Box,

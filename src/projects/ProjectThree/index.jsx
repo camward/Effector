@@ -1,5 +1,5 @@
 import React from "react";
-import { createEffect, createStore, forward } from "effector";
+import { createEffect, createStore, forward } from "effector-logger";
 import { useList } from "effector-react";
 
 const getAllId = createEffect({ handler: async () => [1, 2, 3] });
